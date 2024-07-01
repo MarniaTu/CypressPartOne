@@ -1,0 +1,28 @@
+{
+  "name": "cypresspart1",
+  "version": "1.0.0",
+  "description": "cypress part1",
+  "main": "index.js",
+  "scripts": {
+    "headed_mobile": "npx cypress open --config viewportHeight=1280,viewportWidth=720",
+    "headed_laptop": "npx cypress open --config viewportHeight=1080,viewportWidth=1920",
+    "headless_mobile": "npx cypress run --config viewportHeight=1280,viewportWidth=720",
+    "headless_laptop": "npx cypress run --config viewportHeight=1080,viewportWidth=1920"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarniaTu/CypressPartOne.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Marina Turbina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarniaTu/CypressPartOne/issues"
+  },
+  "homepage": "https://github.com/MarniaTu/CypressPartOne#readme",
+  "devDependencies": {
+    "cypress": "^13.12.0"
+  }
+}
